@@ -1,0 +1,15 @@
+@media (max-width: 500px) {
+    .playlist {
+        margin-top: 450px;
+    }
+    .playlist .list-song h2 {
+        font-size: 16px;
+    }
+    .playlist .list-song p {
+        font-size: 14px;
+    }
+    .playlist div.bar {
+        font-size: 20px;
+        padding-top: 0.5rem;
+    }
+}

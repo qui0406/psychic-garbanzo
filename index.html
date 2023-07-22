@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+   <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <div class="player">
+    <!-- dashboard -->
+        <div class="dashboard">
+            <div class="heading"><h3>Now playing:</h3></div>
+            <div class="music_name"><h2>Tên bài hát</h2></div> 
+            <div class="singer"><p>Ca sĩ</p></div>
+            <div class="CD">
+                <img src="./assets/img/nevada.jpg" alt="Nevada mashup">
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-shuffle" style="color: #4e5665;"></i>
+                <i class="fa-solid fa-backward" style="color: #626a7a;"></i>
+                <i class="fa-solid fa-circle-play" style="color: #d251a3;"></i> 
+                <i class="fa-solid fa-circle-pause" style="color: #d251a3;"></i>
+                <i class="fa-sharp fa-solid fa-forward" style="color: #545c69;"></i>
+                <i class="fa-solid fa-shuffle" style="color: #4e5665;"></i>
+            </div>
+            <div class="music_time">
+                <div class="progressing"></div>
+            </div>
+            <audio src="" id="audio"></audio>
+        </div>
+    </div>
+    <!-- playlist -->
+    <div class="playlist">
+        <ul>
+            <li>
+                <div class="img">
+                    <img src="./assets/img/nevada.jpg" alt="Nevada">
+                </div>
+                <div class="list-song">
+                    <h2>Nevada</h2>
+                    <p>Ca sĩ</p> 
+                </div>
+                <div class="bar"><i class="fa-solid fa-bars"></i></div>  
+            </li>
+        </ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+<link rel="stylesheet" href="./assets/img/codocvuong.jpg">
+<link rel="stylesheet" href="./assets/mp3/CoDocVuongRemix-ThienTu-7198443.mp3">

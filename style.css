@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+.dashboard {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: radial-gradient(pink, violet);
+}
+.heading {
+    margin: 1rem 0;
+    color: red;
+    text-align: center;
+}
+.music_name h2{
+    text-align: center;
+    font-weight: 800;
+    color: blue;
+}
+.singer {
+    text-align: center;
+}
+.CD{
+    margin-top: 1rem;
+    text-align: center;
+    height: 230px;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+.CD img {
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 100%;
+}
+.box {
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.box i {
+    margin: 1rem 5%;
+}
+.box i:nth-child(3){
+    
+    font-size: 40px;
+}
+.box i:nth-child(4){
+    display: none;
+    font-size: 40px;
+}
+.music_time {
+    background-color: blue;
+    height: 0.5rem;
+    position: relative;
+    width: 100%;
+}
+ .progressing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    background-color: red;
+    height: 100%;
+    z-index: 99;
+}
+/* playlist */
+.playlist {
+    margin-top: 430px;
+}
+
+
+.playlist ul li {
+    background-color: bisque;
+    list-style-type: none;
+    height: 65px;
+    margin: 0.5rem 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.playlist ul li > div {
+    margin: 10px ;
+}
+.playlist ul li > div:nth-child(2){
+    flex-grow: 1;
+}
+
+.playlist .list-song h2{
+    font-size: 20px;
+}
+.playlist .img{
+    height: 3rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border-radius: 50%;    
+    overflow: hidden;
+}
+
+.playlist img{
+    margin: -2.5px 0;
+    height: 100%;
+    width: 100%;
+}
+div.bar {
+    font-size: 30px;
+}
